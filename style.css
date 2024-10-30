@@ -1,0 +1,59 @@
+#pealkiri{
+    color:lightskyblue;
+    font-family:'Franklin Gothic Medium', Arial, sans-serif;
+    text-shadow: 2px 2px 5px blue;
+    text-align: center;
+    
+}
+
+#tekst{
+    font-size:large;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    background-color: lightskyblue;
+}
+
+#pilt{
+    border: 10px solid lavender;
+    height:1000px;
+    width:auto;
+}
+#tabeli_päis{
+    background-color:lightpink;
+}
+
+#tabeli_I_rida{
+    font-style: italic;
+}
+#terve_leht{
+    background-color: lightslategray;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid-item-1 {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.grid-item-2{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#paks_tekst{
+    font-weight: bold;
+}
+
+@keyframes pöörlemine {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.pööre-element {
+    animation: pöörlemine 4s linear infinite;
+}
+
+
